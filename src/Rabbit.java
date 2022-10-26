@@ -10,6 +10,10 @@ public class Rabbit {
     }
     public void changeName(String name){
         this.name = name;
+
+    }
+    public String viewName(){
+        return name;
     }
 
 }
